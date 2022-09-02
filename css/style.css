@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fondoNav {
+  background-color: rgb(163, 232, 117) !important;
+}
+
+.fondoNav :hover {
+  color: crimson;
+}
+
+main h1 {
+  font-style: italic;
+  text-align: center;
+}
+main p {
+  margin-inline: 5%;
+  min-height: 100%;
+  padding: 1%;
+}
+main .section-2 {
+  display: grid;
+  background-color: beige;
+  justify-items: center;
+  overflow: auto;
+  min-height: 100%;
+}
+main .section-2 div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
+main .section-3 {
+  display: grid;
+  text-align: center;
+  background-color: aquamarine;
+  line-height: 15px;
+  padding: 1%;
+}
+main .section-3 h2 {
+  text-align: center;
+}
+main .section-3 h3 {
+  text-align: center;
+}
+main .section-3 p {
+  margin-inline: 5%;
+  min-height: 100%;
+  line-height: 30px;
+  padding-top: 3%;
+  padding: 1%;
+}
+main .section-3 form {
+  display: grid;
+  justify-items: center;
+  line-height: 15px;
+  padding: 1%;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  background-image: linear-gradient(to right, rgb(255, 255, 0), rgb(183, 79, 10));
+}
+.footer ul {
+  list-style: none;
+  display: flex;
+  text-align: center;
+}
+.footer img:hover {
+  transform: skew(10deg);
+  transition: 3s;
+}
+
+@media (max-width: 760px) {
+  main .section-2 {
+    display: grid;
+    background-color: beige;
+    justify-items: center;
+    overflow: auto;
+  }
+  main p {
+    text-align: center;
+  }
+  main .section-2 div {
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    align-items: center;
+    min-height: 100%;
+  }
+  main .section-3 {
+    display: grid;
+    grid-template-columns: auto;
+    overflow: auto;
+    text-align: center;
+  }
+  main .section-3 p {
+    margin-top: 10px;
+  }
+  main .section-3 form {
+    margin: 10px;
+  }
+}
+@media (max-width: 450px) {
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+  }
+  .footer img {
+    max-width: 30%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

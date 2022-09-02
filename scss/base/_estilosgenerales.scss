@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+// barra de navegacion
+ 
+ .fondoNav {
+  background-color: rgb(163, 232, 117) !important;
+}
+.fondoNav :hover {
+  color: crimson;
+}  
+
+// contenido principal
+
+main{
+    
+    h1{
+        font-style: italic;
+        text-align: center
+    }
+
+    p{
+        margin-inline: 5%;
+        min-height: 100%;
+        padding: 1%;       
+    } 
+    
+    .section-2{
+        display: grid;
+        background-color: beige;
+        justify-items: center;
+        overflow: auto;
+        min-height: 100%;
+    
+       
+        
+        div{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-items: center;
+            align-items: center;
+            text-align: center
+        }
+    }
+
+    .section-3{
+        display: grid;
+        text-align: center;
+        background-color: aquamarine;
+        line-height: 15px;
+        padding: 1%;
+        
+
+        h2 {
+            text-align: center;
+        }
+
+        h3{
+            text-align: center;
+        }
+
+        p{
+            margin-inline: 5%;
+            min-height: 100%;
+            line-height: 30px;
+            padding-top: 3%;
+            padding: 1%;       
+        }      
+        
+        form{
+            display: grid;
+            justify-items: center;
+            line-height: 15px;
+            padding: 1%;
+        }
+
+    } 
+
+}
+
+// pie de pagina
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    background-image: linear-gradient(to right, rgb(255, 255, 0), rgb(183, 79, 10));
+    
+
+    ul{
+        list-style: none;
+        display: flex;
+        text-align: center;
+    }
+    
+    img:hover{
+        transform: skew(10deg);
+        transition: 3s;
+    }
+
+}
+
+// media queri tablel
+
+@media (max-width: 760px){
+
+    main{
+
+        .section-2 {
+            display: grid;
+            background-color: beige;
+            justify-items: center;
+            overflow: auto;
+            }
+
+            p{
+                text-align: center;
+            }
+
+        .section-2 div{
+            display: grid;
+            grid-template-columns: auto;
+            justify-items: center;
+            align-items: center;
+            min-height: 100%;
+
+        }
+            
+            
+        .section-3{
+            display: grid;
+            grid-template-columns: auto;
+            overflow: auto;
+            text-align: center;
+        }
+        .section-3 p {
+            margin-top: 10px;
+        }
+        
+        .section-3 form{
+            margin: 10px;
+        }
+    
+    }
+}
+
+// modo movil
+
+@media (max-width: 450px){
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+
+        img{
+            max-width: 30%;
+        }
+
+    }
+}
+    
+        
+
