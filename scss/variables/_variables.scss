@@ -1,0 +1,12 @@
+%estiloparrafo{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+
+@mixin fontstyle ($colorfondo) {
+    background-color: $colorfondo;
+    color: rgb(117, 126, 234);
+    text-transform: uppercase;
+    
+}

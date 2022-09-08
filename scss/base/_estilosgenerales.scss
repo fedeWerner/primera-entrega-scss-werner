@@ -18,14 +18,14 @@
 main{
     
     h1{
+        @include fontstyle (beige); 
         font-style: italic;
         text-align: center
     }
+    
 
     p{
-        margin-inline: 5%;
-        min-height: 100%;
-        padding: 1%;       
+        @extend %estiloparrafo;   
     } 
     
     .section-2{
@@ -42,7 +42,7 @@ main{
             grid-template-columns: repeat(3, 1fr);
             justify-items: center;
             align-items: center;
-            text-align: center
+            text-align: center;
         }
     }
 
@@ -55,10 +55,12 @@ main{
         
 
         h2 {
+            @include fontstyle (rgb(132, 71, 71));
             text-align: center;
         }
 
         h3{
+            @include fontstyle (rgb(226, 44, 138));
             text-align: center;
         }
 

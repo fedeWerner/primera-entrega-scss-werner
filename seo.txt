@@ -1,0 +1,14 @@
+1- coloque etiqueta meta keywords en todos los html
+index: lavado, acrilico, ceramico, tapizado, lustrado, auto
+acrilico: auto, power seal, brillo, pintura perfecta
+ceramico: auto, shampoo brillante, paño de microfibras, pintura perfecta
+contacto: auto, lustrado, pulido, ceramico, acrilico, aspiradora
+motor: auto, motor, lavado, limpio, desengrasante
+opticas:  auto, opticas, lustrado, pulido
+tapizado: auto, tapizado, aspiradora de agua, cuero, pana
+
+2- modifique los titulos con etiqueta mixin
+3- modifique los parrafos con etiqueta extend
+4- utilice bootsrap en el nav
+5- utilice un form para contacto
+6- utilice para el footer link de contacto externo con imagenes
